@@ -1,0 +1,18 @@
+# rendezvous-dz
+
+Instruções de Compilação
+
+1 - Inserir o arquivo de entrada com o nome "in.dat" nas pastas rendezvous-dz/serial e rendezvous-dz/openmp.
+
+Compilando o Código Serial:
+
+Compilando o Código MPI:
+
+mpiCC -o <program> <source name.cpp>
+
+Executando o Código MPI:
+ 
+mpirun -np 3 -mf nodes.txt <program>
+
+
+
